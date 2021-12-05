@@ -1,0 +1,151 @@
+/* TAGS */
+body {
+  background-color: hsl(217, 54%, 11%);
+  color: hsl(0, 0%, 100%);
+  font-family: 'Outfit', sans-serif;
+}
+
+hr {
+  background-color: hsl(215, 32%, 27%);
+  border: none;
+  height: 0.5px;
+  margin-bottom: 14px;
+}
+
+/* CSS */
+.soft-blue {
+  color: hsl(215, 51%, 70%);
+}
+
+.cyan {
+  color: hsl(178, 100%, 50%);
+}
+
+.basecard {
+  background-color: hsl(216, 50%, 16%);
+}
+
+.card {
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 15px;
+  margin: 10% auto;
+  padding: 18px;
+  width: 20%;
+}
+
+.container {
+  position: relative;
+}
+
+.nft {
+  backface-visibility: hidden;
+  border-radius: 15px;
+  opacity: 1;
+  transition: .5s ease;
+  height: auto;
+  width: 100%;
+}
+
+.overlay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(178, 100%, 50%);
+  transition: .5s ease;
+  opacity: 0;
+  border-radius: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  height: 100%;
+  width: 100%;
+}
+
+.eyeview {
+  transition: .5s ease;
+}
+
+.container:hover .nft {
+  opacity: 0.5;
+}
+
+.container:hover .overlay {
+  opacity: 0.6;
+}
+
+.head {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.head:hover {
+  color: hsl(178, 100%, 50%);
+}
+
+.msg {
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.dtls-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 18px;
+}
+
+.prc {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+.time {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+.crtr {
+  align-items: center;
+  display: flex;
+}
+
+.avt {
+  border: 1px solid white;
+  border-radius: 15px;
+  width: 25px;
+}
+
+.crt-txt {
+  font-size: 13px;
+  font-weight: 300;
+  margin: 0 0 0 5px;
+}
+
+.crt-name {
+  color: white;
+}
+
+.crt-name:hover {
+  color: hsl(178, 100%, 50%);
+}
+
+.sm-txt {
+  font-size: 14px;
+  margin: 0 0 0 4px;
+}
+
+.sm-img {
+  width: 15%;
+}
+
+.eth-img {
+  width: 12%;
+}
+
+/* Media Query */
+@media screen and (min-width: 375px) {}
