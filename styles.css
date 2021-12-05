@@ -148,4 +148,26 @@ hr {
 }
 
 /* Media Query */
-@media screen and (min-width: 375px) {}
+@media screen and (max-width: 375px) and (min-width: 1px) {
+  .card {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 550px) and (min-width: 376px) {
+  .card {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 769px) and (min-width: 551px) {
+  .card {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 770px) {
+  .card {
+    width: 30%;
+  }
+}
